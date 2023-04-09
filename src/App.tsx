@@ -13,7 +13,10 @@ export default function Home() {
       <header>
         <div className="flex items-center w-full justify-between p-4 bg-gray-900  ">
           <p className="font-bold text-xl">🦄 DeCrypt </p>
-          <DefinedButton text="Connect Wallet" variant="primary" />
+          <div className="flex gap-2">
+            <DefinedButton text="Login" variant="primary" />
+            <DefinedButton text="Signup" variant="secondary" />
+          </div>
         </div>
       </header>
       <main>
